@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "nodeath",
+  "version": "${version}",
+  "name": "No Death",
+  "description": "Pemain tidak bisa mati.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.nodeath.NoDeath"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
